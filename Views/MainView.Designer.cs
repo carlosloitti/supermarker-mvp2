@@ -85,6 +85,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 480);
             Controls.Add(panel1);
+            IsMdiContainer = true;
             Name = "MainView";
             Text = "Text a Supermarket";
             WindowState = FormWindowState.Maximized;

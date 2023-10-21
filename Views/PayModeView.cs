@@ -152,10 +152,10 @@ namespace Supermarket_mvp.Views
                 instance = new PayModeView();
 
 
-                //instance.MdiParent = parentContainer;
+                instance.MdiParent = parentContainer;
 
-                // instance.FormBorderStyle = FormBorderStyle.None;
-                // instance.Dock = DockStyle.Fill;
+                instance.FormBorderStyle = FormBorderStyle.None;
+                instance.Dock = DockStyle.Fill;
 
 
             }
