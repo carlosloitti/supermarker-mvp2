@@ -43,6 +43,8 @@
             TxtSearch = new TextBox();
             label2 = new Label();
             tabPageProductDetail = new TabPage();
+            BtnSave = new Button();
+            BtnCancel = new Button();
             TxtProductObservation = new TextBox();
             label6 = new Label();
             TxtProductPrice = new TextBox();
@@ -51,8 +53,6 @@
             label4 = new Label();
             TxtProductId = new TextBox();
             label3 = new Label();
-            BtnSave = new Button();
-            BtnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             tabControl1.SuspendLayout();
@@ -186,6 +186,7 @@
             // 
             // TxtSearch
             // 
+            TxtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             TxtSearch.Location = new Point(8, 30);
             TxtSearch.Name = "TxtSearch";
             TxtSearch.PlaceholderText = "Data to search";
@@ -220,6 +221,24 @@
             tabPageProductDetail.TabIndex = 1;
             tabPageProductDetail.Text = "Product Detail";
             tabPageProductDetail.UseVisualStyleBackColor = true;
+            // 
+            // BtnSave
+            // 
+            BtnSave.Image = (Image)resources.GetObject("BtnSave.Image");
+            BtnSave.Location = new Point(34, 268);
+            BtnSave.Name = "BtnSave";
+            BtnSave.Size = new Size(59, 46);
+            BtnSave.TabIndex = 15;
+            BtnSave.UseVisualStyleBackColor = true;
+            // 
+            // BtnCancel
+            // 
+            BtnCancel.Image = (Image)resources.GetObject("BtnCancel.Image");
+            BtnCancel.Location = new Point(206, 268);
+            BtnCancel.Name = "BtnCancel";
+            BtnCancel.Size = new Size(59, 46);
+            BtnCancel.TabIndex = 14;
+            BtnCancel.UseVisualStyleBackColor = true;
             // 
             // TxtProductObservation
             // 
@@ -291,24 +310,6 @@
             label3.Size = new Size(62, 15);
             label3.TabIndex = 6;
             label3.Text = "Product Id";
-            // 
-            // BtnSave
-            // 
-            BtnSave.Image = (Image)resources.GetObject("BtnSave.Image");
-            BtnSave.Location = new Point(34, 268);
-            BtnSave.Name = "BtnSave";
-            BtnSave.Size = new Size(59, 46);
-            BtnSave.TabIndex = 15;
-            BtnSave.UseVisualStyleBackColor = true;
-            // 
-            // BtnCancel
-            // 
-            BtnCancel.Image = (Image)resources.GetObject("BtnCancel.Image");
-            BtnCancel.Location = new Point(206, 268);
-            BtnCancel.Name = "BtnCancel";
-            BtnCancel.Size = new Size(59, 46);
-            BtnCancel.TabIndex = 14;
-            BtnCancel.UseVisualStyleBackColor = true;
             // 
             // ProductView
             // 
