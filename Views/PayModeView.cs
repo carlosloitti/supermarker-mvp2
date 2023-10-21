@@ -154,8 +154,8 @@ namespace Supermarket_mvp.Views
 
                 //instance.MdiParent = parentContainer;
 
-               // instance.FormBorderStyle = FormBorderStyle.None;
-               // instance.Dock = DockStyle.Fill;
+                // instance.FormBorderStyle = FormBorderStyle.None;
+                // instance.Dock = DockStyle.Fill;
 
 
             }
