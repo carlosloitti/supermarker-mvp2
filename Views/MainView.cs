@@ -21,7 +21,7 @@ namespace Supermarket_mvp.Views
             BtnPayMode.Click += delegate { ShowPayModeView?.Invoke(this, EventArgs.Empty); };
 
 
-            //BtnExit.Click += delegate { this.Close(); };
+            BtnExit.Click += delegate { this.Close(); };
 
         }
 

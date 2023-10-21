@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             panel1 = new Panel();
+            BtnExit = new Button();
             BtnPayMode = new Button();
             pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
@@ -37,13 +39,25 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(BtnExit);
             panel1.Controls.Add(BtnPayMode);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(200, 450);
+            panel1.Size = new Size(200, 480);
             panel1.TabIndex = 0;
+            // 
+            // BtnExit
+            // 
+            BtnExit.BackgroundImage = (Image)resources.GetObject("BtnExit.BackgroundImage");
+            BtnExit.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnExit.Dock = DockStyle.Bottom;
+            BtnExit.Location = new Point(0, 394);
+            BtnExit.Name = "BtnExit";
+            BtnExit.Size = new Size(200, 86);
+            BtnExit.TabIndex = 2;
+            BtnExit.UseVisualStyleBackColor = true;
             // 
             // BtnPayMode
             // 
@@ -69,7 +83,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 480);
             Controls.Add(panel1);
             Name = "MainView";
             Text = "Text a Supermarket";
@@ -84,5 +98,6 @@
         private Panel panel1;
         private Button BtnPayMode;
         private PictureBox pictureBox1;
+        private Button BtnExit;
     }
 }
